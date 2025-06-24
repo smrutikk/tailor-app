@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import AboutUsPage from './pages/AboutUs';
 import Services from './pages/Services';
-//import Blog from './pages/Blog';
+import BlogPage from './pages/BlogPage';
 import Contact from './pages/ContactUs';
 //import VisitUs from './pages/VisitUs';
 import FooterSection from "../src/components/Footer";
@@ -16,7 +16,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUsPage />} />
           <Route path="/services" element={<Services />} />
-        {/*  <Route path="/blog" element={<Blog />} />*/}
+          <Route path="/blog" element={<BlogPage />} />
           <Route path="/contact" element={<Contact />} />
         {/*  <Route path="/visit-us" element={<VisitUs />} />*/}
         </Routes>
